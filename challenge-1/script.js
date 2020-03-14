@@ -13,5 +13,17 @@ Mark and John are trying to compare their BMI (Body Mass Index), which is calcul
 */
 
 
-var massMark = 82;
-var massJohn = 85;
+var massMark = 84;
+var massJohn = 103;
+var heightMark = 1.78;
+var heightJohn = 1.83;
+
+var markBMI = massMark / (heightMark * heightMark)
+console.log ("Mark BMI" + ' ' + markBMI)
+
+var johnBMI = massJohn / (heightJohn * heightJohn)
+console.log ("Mark BMI" + ' ' + johnBMI)
+
+var higherBMI = markBMI > johnBMI
+console.log ("Is Mark's BMI higher than John's?" + ' ' + higherBMI)
+
