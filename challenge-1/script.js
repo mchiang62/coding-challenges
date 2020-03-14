@@ -22,8 +22,9 @@ var markBMI = massMark / (heightMark * heightMark)
 console.log ("Mark BMI" + ' ' + markBMI)
 
 var johnBMI = massJohn / (heightJohn * heightJohn)
-console.log ("Mark BMI" + ' ' + johnBMI)
+console.log ("John BMI" + ' ' + johnBMI)
 
 var higherBMI = markBMI > johnBMI
 console.log ("Is Mark's BMI higher than John's?" + ' ' + higherBMI)
 
+// Mark\'s - backslash, escaping
